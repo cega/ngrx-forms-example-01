@@ -11,7 +11,6 @@ export class CustomRouterStateSerializer
   serialize(routerState: RouterStateSnapshot): RouterStateUrl {
     const { url } = routerState;
     const queryParams = routerState.root.queryParams;
-
     return { url, queryParams };
   }
 }

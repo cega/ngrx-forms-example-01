@@ -1,7 +1,7 @@
 import { Component, VERSION } from "@angular/core";
 
 @Component({
-  selector: "my-app",
+  selector: "ngf-app",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.scss"]
 })
